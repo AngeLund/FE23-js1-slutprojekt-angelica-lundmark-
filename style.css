@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: ;
+}
+
+body {
+  background-color: rgba(100, 94, 94, 1);
+}
+
+.frontPage {
+  display: flex;
+}
+
+header {
+  width: 40%;
+  background-image: url("man.jpg");
+  height: 100vh;
+  background-position: center;
+}
+
+.textFront {
+  color: #4ababa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+  margin: 260px 100px;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  font-size: 160px;
+}
+
+button {
+  margin-top: 30px;
+  width: 355px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #4ababa;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 75px;
+}
+
+.formDiv {
+  width: 60%;
+  background-color: rgba(100, 94, 94, 1);
+  height: 100vh;
+}
+
+#searchField {
+  border-radius: 32px;
+  background: #d7d7d7;
+  box-shadow: 0px 4px 14.1px 0px #282828;
+  width: 718px;
+  height: 71px;
+  flex-shrink: 0;
+  border: none;
+}
+
+form {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.checkDiv {
+  margin-top: 40px;
+}
+
+.centerbox {
+  margin-top: 460px;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+.backForlist {
+  width: 100%;
+  height: 849px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.42);
+}
+
+.searcH3 {
+  background: #d7d7d7;
+  box-shadow: 0px 4px 14.1px 0px #282828;
+  width: 1141px;
+  height: 71px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.listDiv {
+  background-color: #5d3030;
+  display:grid;
+}
+
+.listDiv img {
+  width: 100;
+  height: 190px;
+}
+
+ul { 
+  list-style-type: none;
+
+}
